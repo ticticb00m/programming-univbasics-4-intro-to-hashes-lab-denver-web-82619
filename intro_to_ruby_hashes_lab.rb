@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  my_hash = { nazanin: brat}
+  my_hash = { :nazanin => brat}
 end
 
 def pioneer
