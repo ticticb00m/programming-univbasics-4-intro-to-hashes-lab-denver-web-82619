@@ -31,7 +31,7 @@ def update_counting_hash(hash, key)
     derp = hash[key] +=1
     hash = {key => derp}
   else
-    hash = {key => 1}
+   return hash = {key => 1}
   end
 end
 
