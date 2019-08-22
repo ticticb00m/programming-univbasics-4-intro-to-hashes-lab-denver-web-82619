@@ -32,7 +32,7 @@ def update_counting_hash(hash, key)
   else
     hash[key] = 1
   end
-  return hash[key]
+  return key = hash[key]
   
 end
 
